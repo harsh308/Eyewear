@@ -16,13 +16,13 @@
 <nav class="navbar navbar-expand-sm bg-light">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Login</a>
+      <a class="nav-link" href="login.jsp">Login</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Registration</a>
+      <a class="nav-link" href="Registration.jsp">Registration</a>
     </li>
   </ul>
 </nav>
