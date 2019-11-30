@@ -6,6 +6,11 @@ public class product {
 		private float price;
 		private int quantity;
 		private String description;
+		private String frametype;
+		private String framesize;
+		private String framecolor;
+		private String glassnumber; 
+		
 		
 		public int getProductid() {
 			return productid;
@@ -36,6 +41,30 @@ public class product {
 		}
 		public void setDescription(String description) {
 			this.description = description;
+		}
+		public String getFrametype() {
+			return frametype;
+		}
+		public void setFrametype(String frametype) {
+			this.frametype = frametype;
+		}
+		public String getFramesize() {
+			return framesize;
+		}
+		public void setFramesize(String framesize) {
+			this.framesize = framesize;
+		}
+		public String getFramecolor() {
+			return framecolor;
+		}
+		public void setFramecolor(String framecolor) {
+			this.framecolor = framecolor;
+		}
+		public String getGlassnumber() {
+			return glassnumber;
+		}
+		public void setGlassnumber(String glassnumber) {
+			this.glassnumber = glassnumber;
 		}
 		
 	}

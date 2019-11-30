@@ -24,6 +24,9 @@
     <li class="nav-item">
       <a class="nav-link" href="registration.jsp">Registration</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="addproduct.jsp">Add Product</a>
+    </li>
   </ul>
 </nav>
 <br>
