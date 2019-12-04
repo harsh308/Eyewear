@@ -23,6 +23,7 @@ import com.datasource.Datasource;
 @MultipartConfig(maxFileSize = 99999999L)
 public class AddProductController extends HttpServlet 
 {
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
 	{
 	product pro = new product();
@@ -41,7 +42,7 @@ public class AddProductController extends HttpServlet
 	try 
 	{
 	Connection con = Datasource.getConnection();
-	PreparedStatement ps = con.prepareStatement("insert into  products(prductname,price,quantity,description,image,frametype,framesize,framecolor,glassnumber) values(?,?,?,?,?,?,?,?,?)");
+	PreparedStatement ps = con.prepareStatement("insert into  products(productname,price,quantity,description,image,frametype,framesize,framecolor,glassnumber) values(?,?,?,?,?,?,?,?,?)");
 	ps.setString(1, pro.getProductname());
 	ps.setFloat(2, pro.getPrice());
 	ps.setInt(3, pro.getQuantity());
@@ -52,6 +53,7 @@ public class AddProductController extends HttpServlet
 	ps.setString(8, pro.getFramecolor());
 	ps.setString(9, pro.getGlassnumber());
 	ps.executeUpdate();
+	con.close();
 	resp.sendRedirect("displayproduct.jsp");
 	} 
 	catch (Exception e) 

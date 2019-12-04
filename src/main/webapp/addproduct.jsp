@@ -11,20 +11,20 @@
 </head>
 <body>
 
-<form class="form-horizontal"enctype="multipart/form-data" method="post"action="AddProductController">
+<form action="AddProductController" class="form-horizontal" method="post" enctype="multipart/form-data" >
 <fieldset>
 <legend>PRODUCTS</legend>
 <div class="form-group">
   <label class="col-md-4 control-label" for="product_name">PRODUCT NAME</label>  
   <div class="col-md-4">
-  <input id="product_name" name="productname" placeholder="PRODUCT NAME" class="form-control input-md" required="" type="text">   
+  <input id="product_name" name="productname" placeholder="PRODUCT NAME" class="form-control input-md"  type="text">   
   </div>
 </div>
 
 <div class="form-group">
   <label class="col-md-4 control-label" for="product_name_fr">PRODUCT DESCRIPTION </label>  
   <div class="col-md-4">
-  <input id="product_name_fr" name="description" placeholder="PRODUCT DESCRIPTION" class="form-control input-md" required="" type="text">    
+  <input id="product_name_fr" name="description" placeholder="PRODUCT DESCRIPTION" class="form-control input-md"  type="text">    
   </div>
 </div>
 

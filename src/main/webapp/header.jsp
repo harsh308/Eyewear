@@ -27,6 +27,9 @@
     <li class="nav-item">
       <a class="nav-link" href="addproduct.jsp">Add Product</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="display.jsp">Display Product</a>
+    </li>
   </ul>
 </nav>
 <br>
