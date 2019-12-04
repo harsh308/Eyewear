@@ -46,7 +46,7 @@
                 </div>
                 <div class="card-read-more">
                     <a class="btn btn-link btn-block" href="buy.jsp">
-                        BYE NOW
+                        BUY NOW
                     </a>
                 </div>
             </div>

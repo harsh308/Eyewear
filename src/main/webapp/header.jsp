@@ -13,10 +13,13 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-light">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand">
+    <img src="/images/images.jpg" alt="logo" style="width:40px;">
+  </a>
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="">Home</a>
+      <a class="nav-link" href="home.jsp">Home</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="login.jsp">Login</a>
@@ -34,11 +37,7 @@
 </nav>
 <br>
 
-<div class="container-fluid">
-  <h3>About Sunglasses and Eyewears.</h3>
-  <p>Sunglasses or sun glasses (informally called shades) are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes</p>
-  <p>The navbar-expand-xl|lg|md|sm class determines when the navbar should stack vertically (on extra large, large, medium or small screens).</p>
-</div>
+
 
 </body>
 </html>
